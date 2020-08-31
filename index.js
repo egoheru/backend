@@ -24,7 +24,8 @@ const PORT = process.env.PORT || 4000; // Step 1
 
 //Configuration of Variables 
 app.use(bodyParser.json())
-app.use(cors({origin:'http://localhost:3000'}))
+// app.use(cors({origin:'http://localhost:3000'}))
+app.use(cors())
 app.listen(PORT,()=>console.log('Server started at : ' + PORT) )
 
 //Dummy test
