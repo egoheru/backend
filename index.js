@@ -24,14 +24,15 @@ const PORT = process.env.PORT || 4000; // Step 1
 
 //Configuration of Variables 
 app.use(bodyParser.json())
-// app.use(cors({origin:'http://localhost:3000'}))
 app.use(cors())
 app.listen(PORT,()=>console.log('Server started at : ' + PORT) )
 
 //Dummy test
 app.get('/', (req, res) => {
     res.json({
-        message: 'hello world'
+
+
+        message: 'hello world page editors now use Lorem Ipsum as their default model text and a search for lorem ipsum will uncover many web sites still in their infancy Various versions have evolved over the years sometimes by accident sometimes on purpose injected humour and the like page editors now use Lorem Ipsum as their default model text and a search for lorem ipsum will uncover many web sites still in their infancy Various versions have evolved over the years sometimes by accident sometimes on purpose injected humour and the like page editors now use Lorem Ipsum as their default model text and a search for lorem ipsum will uncover many web sites still in their infancy Various versions have evolved over the years sometimes by accident sometimes on purpose injected humour and the like page editors now use Lorem Ipsum as their default model text and a search for lorem ipsum will uncover many web sites still in their infancy Various versions have evolved over the years sometimes by accident sometimes on purpose injected humour and the likepage editors now use Lorem Ipsum as their default model text and a search for lorem ipsum will uncover many web sites still in their infancy Various versions have evolved over the years sometimes by accident sometimes on purpose injected humour and the likepage editors now use Lorem Ipsum as their default model text and a search for lorem ipsum will uncover many web sites still in their infancy Various versions have evolved over the years sometimes by accident sometimes on purpose injected humour and the likepage editors now use Lorem Ipsum as their default model text and a search for lorem ipsum will uncover many web sites still in their infancy Various versions have evolved over the years sometimes by accident sometimes on purpose injected humour and the like  ',
     })
 })
 
